@@ -1,0 +1,31 @@
+body{
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0;
+}
+span{
+    color: blueviolet;
+}
+section{
+    display: flex;
+}
+.half_width{
+    width: 50%;
+    padding: 5%;
+}
+.half_width img{
+    width: 80%;
+}
+.bg-top-banner{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+    /* background-color: plum; */
+}
+a{
+    text-transform: uppercase;
+    text-decoration: none;
+    background-image: linear-gradient(purple , tomato);
+    padding: 20px 50px;
+    margin-top: 10px;
+    border-radius: 5px;
+    color: white;
+}
